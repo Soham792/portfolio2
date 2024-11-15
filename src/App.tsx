@@ -6,7 +6,7 @@ import ProjectCard from './components/ProjectCard';
 import SkillBadge from './components/SkillBadge';
 import AchievementCard from './components/AchievementCard';
 import ContactForm from './components/ContactForm';
-
+import image from '../public/profile.jpg';
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -32,7 +32,7 @@ function App() {
         </div>
         <div className="container mx-auto px-4 z-10 text-center">
           <img
-            src="/profile.jpg"
+            src={image}
             alt="Soham Marathe"
             className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white dark:border-gray-800 shadow-lg object-cover"
           />
